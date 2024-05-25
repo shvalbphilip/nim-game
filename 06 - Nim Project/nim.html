@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nim Game</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<div class="defaultdiv">
+        <div class="container-defdiv">
+            <div class="Title">
+                <h1 data-text="Welcome to Nim Game">Welcome to Nim Game</h1>
+            </div>
+            <div class="modeSelectionDiv">
+                <select id="modeSelect">
+                    <option value="">Select Game Mode</option>
+                    <option value="Easy: Stupid Machine">Easy: Stupid Machine</option>
+                    <option value="Hard: Smart Machine">Hard: Smart Machine</option>
+                </select>
+                <button id="startGameBtn">Start Game</button>
+            </div>
+            <div id="gameArea" class="hide">
+                <!-- Game area will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+        <script src="./JS/nim.js"></script>
+</body>
+</html>
